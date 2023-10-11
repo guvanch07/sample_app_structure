@@ -1,0 +1,28 @@
+name: services_root_screen
+description: root screens
+publish_to: 'none'
+
+
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  ads_presentation:
+    path: ../../ads/presentation
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true

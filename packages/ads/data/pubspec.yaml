@@ -1,0 +1,12 @@
+name: ads_data
+description: ads data package
+publish_to: 'none'
+
+
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  services_data:
+    path: ../../services/data

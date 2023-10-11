@@ -1,0 +1,13 @@
+name: services_routes
+description: routes of app
+publish_to: 'none'
+
+
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  go_router:
+  services_root_screen:
+    path: ../root_screen

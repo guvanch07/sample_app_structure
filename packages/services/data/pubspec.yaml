@@ -1,0 +1,11 @@
+name: services_data
+description: ads domain package
+publish_to: 'none'
+
+
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  dio:
